@@ -1,0 +1,24 @@
+{
+  "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+  },
+  "extends": "eslint:recommended",
+
+  "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 2018,
+      "ecmaFeatures": {
+        "objectLiteralShorthandMethods": true,
+        "objectLiteralShorthandProperties": true,
+        "jsx": true
+      }
+  },
+
+  "rules": {
+    "no-useless-concat": "off",
+    "semi": ["warn", "never"],
+    "no-console": "off"
+  }
+}
